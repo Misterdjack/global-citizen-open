@@ -1,0 +1,41 @@
+{
+  "name": "us-patriot-app",
+  "version": "0.1.3",
+  "description": "Learn and engage in the issues that affect your community and country.",
+  "author": "Alius.co",
+  "private": true,
+  "main": "main.js",
+  "eslintConfig": {
+    "extends": "expo/native"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "expo": "^27.0.0",
+    "install": "^0.10.1",
+    "npm": "^4.6.1",
+    "prop-types": "^15.6.0",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz",
+    "react-native-check-box": "^2.0.2",
+    "react-native-communications": "^2.2.1",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-slider": "^0.11.0",
+    "react-native-ui-kitten": "^2.0.1",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-persist": "^4.8.0",
+    "redux-thunk": "^2.2.0",
+    "sentry-expo": "~1.7.0",
+    "uglify-es": "3.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-expo": "^6.0.0",
+    "prettier": "^1.5.3"
+  },
+  "resolutions": {
+    "uglify-es": "3.2.2"
+  }
+}

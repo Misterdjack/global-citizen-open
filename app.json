@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "global-citizen",
+    "description":
+      "Learn and engage in the issues that affect your community and country",
+    "slug": "global-citizen",
+    "privacy": "unlisted",
+    "sdkVersion": "27.0.0",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "primaryColor": "#0e1027",
+    "icon": "./assets/icons/logo@3x.png",
+    "loading": {
+      "icon": "./assets/icons/logo@4x.png",
+      "backgroundColor": "#0e1027",
+      "hideExponentText": true,
+      "backgroundColor": "#0e1027"
+    },
+    "scheme": "globalCitizen",
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "splash": {
+      "resizeMode": "cover",
+      "image": "./splash-ios.png",
+      "backgroundColor": "#0e1027"
+    },
+    "facebookDisplayName": "US Patriot App",
+    "assetBundlePatterns": [
+      "assets/**",
+      "node_modules/react-navigation/src/**/*.png",
+      "node_modules/@expo/vector-icons/fonts/*.ttf"
+    ]
+  }
+}

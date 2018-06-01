@@ -1,0 +1,10 @@
+export const IS_LOGGEDIN  = "is_loggedin"
+export const LOGIN_FAILED = "login_failed"
+
+export const REQUEST_HOUSE_LEGISLATOR  = "REQUEST_HOUSE_LEGISLATOR"
+export const REQUEST_SENATE_LEGISLATOR = "REQUEST_SENATE_LEGISLATOR"
+export const FETCHING_LEGISLATOR       = 'FETCHING_LEGISLATOR'
+
+export const UPDATE_ISSUE = "UPDATE_ISSUE"
+
+export const UPDATE_CONCERN = 'UPDATE_CONCERN'
