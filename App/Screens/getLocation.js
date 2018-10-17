@@ -116,6 +116,14 @@ class LocationPage extends React.Component {
 
   async _getStreetAddress() {
     try {
+      // Geocodio as an alternative to google
+      let response = await axios.get(
+        `https://api.geocod.io/v1/reverse?q=${this.state.location.latitude},${this
+          .state.location.longitude}&api_key=${geocodioKey}`
+      );
+      return response;
+    } catch (e) {
+      console.log(e);
       // Google location search
       let response = await axios.get(
         `https://maps.googleapis.com/maps/api/geocode/json?latlng=${
@@ -125,14 +133,7 @@ class LocationPage extends React.Component {
       return response;
       // For testing purposes
       // curl https://maps.googleapis.com/maps/api/geocode/json?latlng=37.785863,-122.406497&sensor=true
-    } catch (e) {
-      console.log(e);
-      // Geocodio as an alternative to google
-      let response = await axios.get(
-        `https://api.geocod.io/v1/reverse?q=${this.state.location.latitude},${this
-          .state.location.longitude}&api_key=${geocodioKey}`
-      );
-      return response;
+
     }
 
   }

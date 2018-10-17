@@ -39,4 +39,4 @@ eg. export const googleKey = "your-key-here";
 
 - https://projects.propublica.org/api-docs/congress-api/endpoints/
 
-## "This project is licensed under the terms of the MIT license.""
+## "This project is licensed under the terms of the MIT license."
